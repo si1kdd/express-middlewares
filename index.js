@@ -1,11 +1,11 @@
 'use strict'
 
 const cors = require('./cors');
-const morgan = require('./morgan');
+const tcolor = require('./tcolor');
 const rateLimiter = require('./rateLimiter');
 
 module.exports = {
 	cors,
-	morgan,
+        tcolor,
 	rateLimiter,
 };
