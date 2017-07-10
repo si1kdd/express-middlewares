@@ -1,7 +1,7 @@
 {
   "name": "express-middlewares",
   "version": "1.0.0",
-  "description": "2017 NTCU Soft-test final",
+  "description": "2017 NCTU Software testing small project",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.0.0",
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
     "express": "^4.15.2",
     "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
     "on-finished": "^2.3.0",
     "on-headers": "^1.0.1",
     "redis": "^2.7.1",
